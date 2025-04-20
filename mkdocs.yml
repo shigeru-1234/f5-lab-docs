@@ -1,0 +1,27 @@
+site_name: F5 Lab Docs  # サイト名（ヘッダーに表示される）
+site_url: https://your-username.github.io/f5-lab-docs/  # 公開予定のURL（なくてもOK）
+
+theme:
+  name: material  # 使用するテーマ（"readthedocs"も可）
+  language: ja  # 日本語化（オプション）
+
+nav:  # ナビゲーション設定（Markdownファイルの順番と名前）
+  - ホーム: index.md
+  - 初期セットアップ:
+      - 構成図: setup/diagram.md
+      - WAF構成手順: setup/waf.md
+  - FAQ: faq.md
+
+markdown_extensions:  # 拡張機能（コードハイライトや表機能など）
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - def_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username
