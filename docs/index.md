@@ -15,3 +15,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Sample iRule
+
+This repository includes a sample iRule in `irules/switch_pool.irule` that routes requests to different pools based on the URI path.
